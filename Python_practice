@@ -1,0 +1,39 @@
+import math
+import random
+
+
+# TODO: Write a print statement that displays both the type and value of `pi`
+pi = math.pi
+
+>>> print(f"Pi is a {type(pi)} with a value of {pi}")
+Pi is a <class 'float'> with a value of 3.141592653589793
+
+
+# TODO: Write a conditional to print out if `i` is less than or greater than 50
+i = random.randint(0, 100)
+
+
+# TODO: Write a conditional that prints the color of the selected sportsball
+picked_sportsball = random.choice(['tennis', 'basketball', 'golf'])
+
+if picked_sportsball=="tennis":
+    print(f"A {picked_sportsball} ball is green")
+elif picked_sportsball=="basketball":
+    print(f"A {picked_sportsball} is brown")
+else:
+    print(f"A {picked_sportsball} ball is white")
+
+
+# TODO: Write a function that multiplies two numbers and returns the result
+# Define the function here.
+
+def mult(num1, num2):
+    """ Multiply two numbers and return the result."""
+    result = num1 * num2
+    return result
+
+# TODO: Now call the function a few times to calculate the following answers
+
+print("12 x 96 =",mult(12,96))
+print("48 x 17 =",mult(48,17))
+print("196523 x 87323 =",mult(196523,87323))
